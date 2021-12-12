@@ -1,0 +1,33 @@
+body{
+    background-color:#c9f09c;
+}
+#table{
+    border-collapse: collapse;
+    margin-left: 20%;
+}
+#table th, #table td{
+    border: 2px solid black;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    color: black;
+}
+#table tr:nth-child(2n){
+    background-color: #cce6ed;
+}
+#table tr:hover{
+    background-color: #8aafc2;
+}
+#table td{
+    text-align: center;
+}
+span{
+    font-size: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+margin-bottom: 30px;
+
+}
